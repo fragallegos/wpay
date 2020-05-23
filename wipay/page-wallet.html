@@ -1,0 +1,436 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>wipay</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+
+<body class="theme-light" data-background="none" data-highlight="red2">
+
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+
+<div id="page">
+
+ <div class="header header-fixed header-logo-center">
+       <a href="index.html" class="header-title">wipay</a>
+        <a href="index.html" data-back-button class="header-icon header-icon-1"><i class="fas fa-arrow-left"></i></a>
+        <a href="#" class="header-icon header-icon-4" data-menu="menu-signup"><i class="fas fa-plus"></i></a>
+    </div>
+
+    <div id="footer-bar" class="footer-bar-2">
+           <!-- <a href="index.html"><i class="fa fa-home"></i><span>Home</span></a> -->
+            <a href="page-about.html"><i class="fa fa-cube"></i><span>Acerca</span></a>
+            <a href="index.html" class="active-nav"><i class="">P</i><span>Pay</span></a>
+            <!-- <a href="index-search.html"><i class="fa fa-search"></i><span>Search</span></a> -->
+            <a href="#" data-menu="menu-settings"><i class="fa fa-cog"></i><span>Settings</span><em class="badge bg-green1-dark">3</em></a>
+        </div>
+
+    <div class="page-content header-clear-medium">
+
+        <div data-card-height="230" class="card card-style rounded-m shadow-xl preload-img" data-src="images/pictures/18w.jpg">
+            <div class="card-top mt-4 ml-3">
+                <h1 class="color-white mb-0 mb-n2">Karla Black</h1>
+
+            </div>
+            <div class="card-top mt-4 mr-3">
+                <a href="#" class="mt-1 float-right btn btn-s rounded-s shadow-l bg-highlight">Eliminar</a>
+            </div>
+            <div class="card-center ml-3">
+                <p class="color-white font-10 bold uppercase line-height-small text-uppercase text-shadow-l font-10 opacity-50 mb-0 mt-n4">Tarjeta</p>
+                <p class="color-white font-20 bold uppercase line-height-small text-uppercase text-shadow-l font-10 mb-0 pb-0 mt-n2">xxxx xxxxx xxxx 3456</p>
+            </div>
+            <div class="card-bottom">
+                <p class="text-right mr-3 font-8 font-500 opacity-50 color-white"><i class="fab fa-cc-mastercard text-shadow-l color-white font-34 mb-1 float-right"></i></p>
+            </div>
+            <div class="card-overlay bg-black opacity-70"></div>
+        </div>
+        <div data-card-height="230" class="card card-style rounded-m shadow-xl">
+            <div class="card-top mt-4 mr-3">
+                <a href="#" class="mt-1 float-right  btn btn-s rounded-s shadow-l bg-highlight">Elimnar</a>
+            </div><div class="card-top mt-4 mr-3">
+                <a href="#" class="mt-1 float-right  btn btn-s rounded-s shadow-l bg-highlight">Eliminar</a>
+            </div>
+            <div class="card-center ml-3">
+                <p class="color-white font-10 bold uppercase line-height-small text-uppercase text-shadow-l font-10 opacity-50 mb-0 mt-n4">Tarjeta</p>
+                <p class="color-white font-20 bold uppercase line-height-small text-uppercase text-shadow-l font-10 mb-0 pb-0 mt-n2">xxxx xxxxx xxxx 3456</p>
+            </div>
+            <div class="card-bottom mb-3 mr-3">
+                <i class="fab fa-cc-visa text-shadow-l color-white font-24 mb-1 float-right"></i>
+            </div>
+            <div class="card-bottom mb-3">
+                <div class="text-center text-shadow-l">
+                    <p class="color-white font-10 font-800 text-uppercase text-shadow-large font-10 opacity-50 text-uppercase mb-n2">Valid Thru</p>
+                    <p class="color-white font-10 font-700 text-uppercase text-shadow-large font-16 mb-0 pb-0">20/20</p>
+                </div>
+            </div>
+            <div class="card-bottom left-25 line-height-small">
+                <div class="text-left ml-3 mb-3 text-shadow-l">
+                    <p class="color-white font-10 font-800 text-uppercase text-shadow-large font-10 opacity-50 text-uppercase mb-n2">Card Holder</p>
+                    <p class="color-white font-10 font-700 text-uppercase text-shadow-large font-16 mb-0 pb-0">John Doe</p>
+                </div>
+            </div>
+            <div class="card-overlay bg-gradient opacity-70"></div>
+            <div class="card-overlay bg-gradient bg-gradient-blue2 opacity-70"></div>
+        </div>
+
+        <div class="card card-style bg-theme pb-0">
+            <div class="content content-full">
+                <div class="tab-controls tabs-round tab-animated tabs-medium shadow-xl"
+                     data-tab-items="3"
+                     data-tab-active="bg-blue2-dark color-white">
+                    <a href="#" data-tab-active data-tab="tab-1">Información</a>
+                    <a href="#" data-tab="tab-2">Tarjeta</a>
+                    <a href="#" data-tab="tab-3">Pago</a>
+                </div>
+                <div class="clearfix mb-3"></div>
+            </div>
+            <div class="tab-content" id="tab-1">
+
+            <div class="content mb-0">
+                <h2>Información</h2>
+                <p class="mb-5">
+                    Llene el formulario para realizar la compra
+                </p>
+                <div class="input-style input-style-2 has-icon input-required">
+                    <i class="input-icon fa fa-user"></i>
+                    <span class="color-highlight input-style-1-active">Nombre</span>
+                    <em>(required)</em>
+                    <input type="name" name="Name" class="form-control" placeholder="Jackson Doe">
+                </div>
+                <div class="input-style input-style-2 has-icon input-required mt-4">
+                    <i class="input-icon fa fa-at"></i>
+                    <span class="color-highlight input-style-1-active">Email</span>
+                    <em>(required)</em>
+                    <input type="email" name="email" class="form-control" value="jack.doe@domain.com">
+                </div>
+                <div class="input-style input-style-2 has-icon input-required mt-4">
+                    <i class="input-icon fa fa-map-marker"></i>
+                    <span class="color-highlight input-style-1-active">Ubicacion</span>
+                    <em>(required)</em>
+                    <input type="text" name="ubicacion" class="form-control" value="Melbourne, Australia">
+                </div>
+                <div class="input-style input-style-2 has-icon input-required mt-4">
+                    <i class="input-icon fa fa-phone"></i>
+                    <span class="color-highlight input-style-1-active">Número de télefono</span>
+                    <em>(required)</em>
+                    <input type="phone" class="form-control" value="+1 234 5678 9134">
+                </div>
+                <a href="#" id="getInfoButton" class="btn btn-full bg-green1-dark btn-m text-uppercase rounded-sm shadow-l mb-3 mt-4 font-900">Guardar</a>
+            </div>
+
+            </div>
+
+
+            <div class="tab-content" id="tab-2">
+
+            <div class="content mb-0">
+                <h2>TARJETA</h2>
+                <p class="mb-5">
+                    Llene el formulario para realizar la compra
+                </p>
+                <div class="input-style input-style-2 has-icon input-required">
+                    <i class="input-icon fa fa-user"></i>
+                    <span class="color-highlight input-style-1-active">Nombre</span>
+                    <em>(required)</em>
+                    <input type="name" class="form-control" value="Jackson Doe">
+                </div>
+                <div class="input-style input-style-2 has-icon input-required mt-4">
+                    <i class="input-icon fa fa-at"></i>
+                    <span class="color-highlight input-style-1-active">Email</span>
+                    <em>(required)</em>
+                    <input type="email" class="form-control" value="jack.doe@domain.com">
+                </div>
+                <div class="input-style input-style-2 has-icon input-required mt-4">
+                    <i class="input-icon fa fa-map-marker"></i>
+                    <span class="color-highlight input-style-1-active">Ubicación</span>
+                    <em>(required)</em>
+                    <input type="text" class="form-control" value="Melbourne, Australia">
+                </div>
+                <div class="input-style input-style-2 has-icon input-required mt-4">
+                    <i class="input-icon fa fa-phone"></i>
+                    <span class="color-highlight input-style-1-active">Número de télefono</span>
+                    <em>(required)</em>
+                    <input type="phone" class="form-control" value="+1 234 5678 9134">
+                </div>
+                <a href="#" class="btn btn-full bg-green1-dark btn-m text-uppercase rounded-sm shadow-l mb-3 mt-4 font-900">Guardar</a>
+            </div>
+
+            </div>
+
+            <div class="tab-content" id="tab-3">
+                <p class="content mt-0">
+                    Information regarding services provided by your wallet or other useful information that can go here. Simple to use and edit.
+                </p>
+                <div class="divider divider-margins"></div>
+                <div class="alert mr-3 ml-3 mb-5 rounded-s shadow-xl bg-green1-dark" role="alert">
+                    <span class="alert-icon"><i class="fa fa-check font-18"></i></span>
+                    <h4 class="text-uppercase color-white">Transfer Complete</h4>
+                    <strong class="alert-icon-text">You received $200 from John Doe.</strong>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- <div class="footer card card-style">
+            <a href="#" class="footer-title"><span class="color-highlight">StickyMobile</span></a>
+            <p class="footer-text"><span>Made with <i class="fa fa-heart color-highlight font-16 pl-2 pr-2"></i> by Enabled</span><br><br>Powered by the best Mobile Website Developer on Envato Market. Elite Quality. Elite Products.</p>
+            <div class="text-center mb-3">
+                <a href="#" class="icon icon-xs rounded-sm shadow-l mr-1 bg-facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="icon icon-xs rounded-sm shadow-l mr-1 bg-twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="icon icon-xs rounded-sm shadow-l mr-1 bg-phone"><i class="fa fa-phone"></i></a>
+                <a href="#" data-menu="menu-share" class="icon icon-xs rounded-sm mr-1 shadow-l bg-red2-dark"><i class="fa fa-share-alt"></i></a>
+                <a href="#" class="back-to-top icon icon-xs rounded-sm shadow-l bg-dark1-light"><i class="fa fa-angle-up"></i></a>
+            </div>
+            <p class="footer-copyright">Copyright &copy; Enabled <span id="copyright-year">2017</span>. All Rights Reserved.</p>
+            <p class="footer-links"><a href="#" class="color-highlight">Privacy Policy</a> | <a href="#" class="color-highlight">Terms and Conditions</a> | <a href="#" class="back-to-top color-highlight"> Back to Top</a></p>
+            <div class="clear"></div>
+        </div>     -->
+
+    </div>
+    <!-- End of Page Content-->
+
+
+
+    <!-- All Menus, Action Sheets, Modals, Notifications, Toasts, Snackbars get Placed outside the <div class="page-content"> -->
+<div id="menu-settings" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-height="308">
+        <div class="menu-title"><h1>Settings</h1><p class="color-highlight">Ajustes y Contácto</p><a href="#" class="close-menu"><i class="fa fa-times"></i></a></div>
+        <div class="divider divider-margins mb-n2"></div>
+        <div class="content">
+            <div class="list-group list-custom-small">
+                <a href="#" data-toggle-theme data-trigger-switch="switch-dark-mode" class="pb-2 ml-n1">
+                    <i class="fa font-12 fa-moon rounded-s bg-highlight color-white mr-3"></i>
+                    <span>Dark Mode</span>
+                    <div class="custom-control scale-switch ios-switch">
+                        <input data-toggle-theme-switch type="checkbox" class="ios-input" id="switch-dark-mode">
+                        <label class="custom-control-label" for="switch-dark-mode"></label>
+                    </div>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+
+            <div class="list-group list-custom-large">
+
+                <a data-menu="menu-backgrounds" href="page-wallet.html">
+                    <i class="fa fa-credit-card bg-blue1-dark rounded-s"></i>
+                    <span>Tajerta</span>
+                    <strong>Agregar forma de pago</strong>
+                    <span class="badge bg-green1-dark">EDITAR</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+
+                <a data-menu="menu-backgrounds" href="page-contact.html">
+                    <i class="fa fa-envelope bg-blue2-dark rounded-s"></i>
+                    <span>Contacto</span>
+                    <strong>Soporte</strong>
+                  <!--  <span class="badge bg-highlight color-white">VER</span> -->
+                    <i class="fa fa-angle-right"></i>
+                </a>
+
+                <a data-menu="menu-highlights" href="#">
+                    <i class="fa font-14 fa-tint bg-green1-dark rounded-s"></i>
+                    <span>Términos y Condiciones</span>
+                    <strong>Pólitica de privacida</strong>
+                 <span class="badge bg-highlight color-white">VER</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                <a data-menu="menu-backgrounds" href="#" class="border-0">
+                    <i class="fa font-14 fa-cog bg-blue2-dark rounded-s"></i>
+                    <span>FAQ</span>
+                    <strong>Preguntas Frecuentes</strong>
+                    <span class="badge bg-highlight color-white">VER</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <!-- Menu Settings Highlights-->
+    <div id="menu-highlights" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-height="380" data-menu-effect="menu-over">
+        <div class="menu-title"><h1>Términos y Condiciones</h1><p class="color-highlight">Pólitica de privacidad</p><a href="#" class="close-menu"><i class="fa fa-times"></i></a></div>
+        <div class="divider divider-margins mb-n2"></div>
+        <div class="content">
+            <div class="card card-style">
+                <div class="content">
+
+                <h2 class="bolder bottom-15">Pólitica de Privacidad</h2>
+                <p>Su privacidad es muy importante para nosotros. En consecuencia, hemos desarrollado esta Política para que usted entienda cómo recopilamos, usamos, comunicamos, divulgamos y hacemos uso de la información personal. Lo siguiente describe nuestra política de privacidad.</p>
+                <ul>
+                    <li>Recopilaremos y utilizaremos información personal únicamente con el objetivo de cumplir con los fines especificados por nosotros y para otros fines compatibles, a menos que obtengamos el consentimiento de la persona en cuestión o según lo exija la ley.</li>
+                    <li>Solo retendremos información personal durante el tiempo que sea necesario para el cumplimiento de esos fines.</li>
+                    <li>Recopilaremos información personal por medios legales y justos y, cuando corresponda, con el conocimiento o consentimiento de la persona interesada. </li>
+
+                </ul>
+            </div>
+        </div>
+            <a href="page-terms.html" data-menu="menu-settings" class="btn btn-full btn-m rounded-sm bg-highlight shadow-xl text-uppercase font-900 mt-4">Conocer Términos y Condiciones</a>
+        </div>
+    </div>
+    <!-- Menu Settings Backgrounds-->
+    <div id="menu-backgrounds" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-height="310" data-menu-effect="menu-over">
+        <div class="menu-title"><h1>FAQ</h1><p class="color-highlight">Preguntas Frecuentes</p><a href="#" class="close-menu"><i class="fa fa-times"></i></a></div>
+        <div class="divider divider-margins mb-n2"></div>
+        <div class="content">
+            <div class="card card-style">
+            <div class="content mb-2">
+
+                <div class="d-flex">
+                    <div class="pt-1">
+                        <h5 data-activate="question-1" class="font-600">Que seguridad dispone el aplicativo?</h5>
+                    </div>
+                    <div class="ml-auto mr-1 pr-2">
+                        <div class="custom-control classic-switch">
+                            <input type="checkbox" class="classic-input" id="question-1">
+                            <label class="custom-control-label" for="question-1"></label>
+                            <i class="fa fa-angle-down font-11 color-green1-dark"></i>
+                        </div>
+                    </div>
+                </div>
+                <div data-switch="question-1" class="switch-is-unchecked">
+                    <p class="pb-3">
+                        La plataforma usa el sistema de seguridad 3Ds provistapor datafast
+                    </p>
+                </div>
+
+                <div class="divider mt-2 mb-2"></div>
+
+                <div class="d-flex">
+                    <div class="pt-1">
+                        <h5 data-activate="question-2" class="font-600">Pagos de Pedido/Producto/Servicio?</h5>
+                    </div>
+                    <div class="ml-auto mr-1 pr-2">
+                        <div class="custom-control classic-switch">
+                            <input type="checkbox" class="classic-input" id="question-2">
+                            <label class="custom-control-label" for="question-2"></label>
+                            <i class="fa fa-angle-down font-11 color-green1-dark"></i>
+                        </div>
+                    </div>
+                </div>
+                <div data-switch="question-2" class="switch-is-unchecked">
+                    <p class="pb-3">
+                        Para realizar el pago del pedido/servicio/producto se debe digitar tarjeta de débito o crédito.
+                    </p>
+                </div>
+
+                <div class="divider mt-2 mb-2"></div>
+
+                <div class="d-flex">
+                    <div class="pt-1">
+                        <h5 data-activate="question-3" class="font-600">Envios?</h5>
+                    </div>
+                    <div class="ml-auto mr-1 pr-2">
+                        <div class="custom-control classic-switch">
+                            <input type="checkbox" class="classic-input" id="question-3">
+                            <label class="custom-control-label" for="question-3"></label>
+                            <i class="fa fa-angle-down font-11 color-green1-dark"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-switch="question-3" class="switch-is-unchecked">
+                    <p class="pb-3">Cada servicio/producto/pedido cuenta con servicio de envio incluido.</p>
+                </div>
+
+
+
+
+                <div class="divider mt-2 mb-2"></div>
+
+            </div>
+        </div>
+            <a href="page-faq.html" data-menu="menu-settings" class="btn btn-full btn-m rounded-sm bg-highlight shadow-xl text-uppercase font-900 mt-4">Ir a Preguntas Frecuentes</a>
+        </div>
+    </div>
+    <!-- Menu Share -->
+    <div id="menu-share" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-height="345" data-menu-effect="menu-over">
+        <div class="menu-title mt-n1"><h1>Share the Love</h1><p class="color-highlight">Just Tap the Social Icon. We'll add the Link</p><a href="#" class="close-menu"><i class="fa fa-times"></i></a></div>
+        <div class="content mb-0">
+            <div class="divider mb-0"></div>
+            <div class="list-group list-custom-small list-icon-0">
+                <a href="#" class="shareToFacebook">
+                    <i class="font-18 fab fa-facebook color-facebook"></i>
+                    <span class="font-13">Facebook</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                <a href="#" class="shareToTwitter">
+                    <i class="font-18 fab fa-twitter-square color-twitter"></i>
+                    <span class="font-13">Twitter</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                <a href="#" class="shareToLinkedIn">
+                    <i class="font-18 fab fa-linkedin color-linkedin"></i>
+                    <span class="font-13">LinkedIn</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                <a href="#" class="shareToWhatsApp">
+                    <i class="font-18 fab fa-whatsapp-square color-whatsapp"></i>
+                    <span class="font-13">WhatsApp</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                <a href="#" class="shareToMail border-0">
+                    <i class="font-18 fa fa-envelope-square color-mail"></i>
+                    <span class="font-13">Email</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Menu Sign Up-->
+    <!---------------->
+    <!---------------->
+    <div id="menu-signup" class="menu menu-box-bottom menu-box-detached rounded-m"
+         data-menu-height="370"
+         data-menu-effect="menu-over">
+        <div class="content mb-0">
+            <h1 class="text-uppercase font-900 mb-0">Registrar Tarjeta</h1>
+            <p class="font-11  mt-n1 mb-0">
+                Guardar tarjeta para futuras compras.
+            </p>
+
+            <div class="input-style has-icon input-style-1 input-required">
+                <i class="input-icon fa fa-user font-11"></i>
+                <span>Nombre y Apellido</span>
+                <em>(required)</em>
+                <input type="name" placeholder="Nombre y Apellido">
+            </div>
+            <div class="input-style has-icon input-style-1 input-required">
+                <i class="input-icon fa fa-credit-card"></i>
+                <span>Número de tarjeta</span>
+                <em>(required)</em>
+                <input type="email" placeholder="Número de Tarjeta">
+            </div>
+            <div class="input-style has-icon input-style-1 input-required">
+                <i class="input-icon fa fa-calendar font-11"></i>
+                <span>Fecha de Expriración</span>
+                <em>(required)</em>
+                <input type="password" placeholder="fecha de expiración">
+            </div>
+            <div class="input-style has-icon input-style-1 input-required">
+                <i class="input-icon fa fa-lock font-11"></i>
+                <span>cvv</span>
+                <em>(required)</em>
+                <input type="password" placeholder="CVV">
+            </div>
+
+            <a href="#" class="btn btn-full btn-m shadow-l rounded-s text-uppercase font-900 bg-blue2-dark mt-4">Guardar</a>
+        </div>
+
+    </div>
+
+
+</div>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</body>

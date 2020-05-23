@@ -1,0 +1,25 @@
+[19-May-2020 11:45:27 America/Boise] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function request(), 2 passed in /home3/mooddigi/public_html/wipay/index.php on line 120 and exactly 3 expected in /home3/mooddigi/public_html/wipay/index.php:61
+Stack trace:
+#0 /home3/mooddigi/public_html/wipay/index.php(120): request('008100300701039...', 1.12)
+#1 {main}
+  thrown in /home3/mooddigi/public_html/wipay/index.php on line 61
+[19-May-2020 11:49:25 America/Boise] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function request(), 2 passed in /home3/mooddigi/public_html/wipay/index.php on line 120 and exactly 3 expected in /home3/mooddigi/public_html/wipay/index.php:61
+Stack trace:
+#0 /home3/mooddigi/public_html/wipay/index.php(120): request('008100300701039...', 1.12)
+#1 {main}
+  thrown in /home3/mooddigi/public_html/wipay/index.php on line 61
+[19-May-2020 15:56:40 America/Boise] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function request(), 2 passed in /home3/mooddigi/public_html/wipay/index.php on line 120 and exactly 3 expected in /home3/mooddigi/public_html/wipay/index.php:61
+Stack trace:
+#0 /home3/mooddigi/public_html/wipay/index.php(120): request('008100300701039...', 1.12)
+#1 {main}
+  thrown in /home3/mooddigi/public_html/wipay/index.php on line 61
+[21-May-2020 12:46:44 America/Boise] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function request(), 2 passed in /home3/mooddigi/public_html/wipay/index.php on line 120 and exactly 3 expected in /home3/mooddigi/public_html/wipay/index.php:61
+Stack trace:
+#0 /home3/mooddigi/public_html/wipay/index.php(120): request('008100300701039...', 1.12)
+#1 {main}
+  thrown in /home3/mooddigi/public_html/wipay/index.php on line 61
+[21-May-2020 16:45:24 America/Boise] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function request(), 2 passed in /home3/mooddigi/public_html/wipay/index.php on line 120 and exactly 3 expected in /home3/mooddigi/public_html/wipay/index.php:61
+Stack trace:
+#0 /home3/mooddigi/public_html/wipay/index.php(120): request('008100300701039...', 1.12)
+#1 {main}
+  thrown in /home3/mooddigi/public_html/wipay/index.php on line 61

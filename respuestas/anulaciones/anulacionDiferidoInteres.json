@@ -1,0 +1,36 @@
+array(14) {
+  ["id"]=> string(32) "8ac7a4a1720294cd01720467659a3284"
+  ["referencedId"]=> string(32) "8ac7a4a072029fc301720465d04b687a"
+  ["paymentType"]=> string(2) "RF"
+  ["amount"]=> string(4) "1.12"
+  ["currency"]=> string(3) "USD"
+  ["descriptor"]=> string(29) "7704.5264.8159 INFINITY GROUP"
+  ["merchantTransactionId"]=> string(15) "000000000000002"
+  ["result"]=> array(2) {
+    ["code"]=> string(11) "000.100.112"
+    ["description"]=> string(67) "Request successfully processed in 'Merchant in Connector Test Mode'"
+    }
+  ["resultDetails"]=> array(6) {
+    ["ExtendedDescription"]=> string(21) "Transaction succeeded"
+    ["clearingInstituteName"]=> string(8) "Datafast"
+    ["AuthCode"]=> string(6) "151634"
+    ["ConnectorTxID1"]=> string(32) "8ac7a4a1720294cd01720467659a3284" 
+    ["ReferenceNbr"]=> string(13) "200511_004220"
+    ["AcquirerResponse"]=> string(2) "00"
+    }
+  ["customer"]=> array(1) {
+    ["merchantCustomerId"]=> string(12) "000000000001"
+    }
+  ["customParameters"]=> array(9) {
+    ["1000000505_PD100406"]=> string(85) "0081003007010391000401200000000001205100817913101052012000000000000053012000000000100"
+    ["AUTHCODE"]=> string(6) "151634"
+    ["PAN"]=> string(16) "4540633170010000"
+    ["SHOPPER_gracia"]=> string(1) "0"
+    ["SHOPPER_installments"]=> string(1) "3"
+    ["SHOPPER_interes"]=> string(1) "1"
+    ["STAN"]=> string(6) "004220"
+    ["expiryMonth"]=> string(2) "04"
+    ["expiryYear"]=> string(2) "22"
+  } ["buildNumber"]=> string(66) "8db1668c6a1b46ab56968d5147cbe00e7fc715ca@2020-05-11 03:42:27 +0000"
+  ["timestamp"]=> string(24) "2020-05-11 15:43:06+0000"
+  ["ndc"]=> string(65) "8ac7a4c871bf63f00171c2f2e77c0d14_89b8e4632e9d466e83c7d0d810606ae0" }

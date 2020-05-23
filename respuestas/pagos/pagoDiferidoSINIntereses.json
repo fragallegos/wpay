@@ -1,0 +1,89 @@
+{
+   "id":"8ac7a4a171e574c40171eb92ff000acb",
+   "paymentType":"DB",
+   "paymentBrand":"VISA",
+   "amount":"1.12",
+   "currency":"USD",
+   "descriptor":"1203.0575.6575 INFINITY GROUP",
+   "merchantTransactionId":"000000000000002",
+   "result":{
+      "code":"000.100.112",
+      "description":"Request successfully processed in 'Merchant in Connector Test Mode'"
+   },
+   "resultDetails":{
+      "RiskFraudStatusCode":"ACCEPT",
+      "RequestId":"350551122640",
+      "ConnectorTxID1":"8ac7a4a171e574c40171eb92ff000acb",
+      "AuthCode":"150586",
+      "ReferenceNbr":"200506_003633",
+      "EXTERNAL_SYSTEM_LINK":"https://csi-stage.redworldwide.com/index.red#transactiondetail/000537210276RCA20200506160012098",
+      "OrderId":"120305756575",
+      "RiskStatusCode":"PENDING",
+      "ExtendedDescription":"Transaction succeeded",
+      "clearingInstituteName":"Datafast",
+      "RiskResponseCode":"0100",
+      "action":"created",
+      "AcquirerResponse":"00_04VG",
+      "RiskOrderId":"000537210276RCA20200506160012098"
+   },
+   "card":{
+      "bin":"454063",
+      "binCountry":"EC",
+      "last4Digits":"0000",
+      "holder":"Andres Gallegos",
+      "expiryMonth":"04",
+      "expiryYear":"2022"
+   },
+   "customer":{
+      "givenName":"Jose",
+      "surname":"Luna",
+      "middleName":"Daniel",
+      "merchantCustomerId":"000000000001",
+      "phone":"0987654321",
+      "email":"jose@example.com",
+      "identificationDocType":"IDCARD",
+      "identificationDocId":"1718555555",
+      "ip":"179.49.61.43",
+      "ipCountry":"EC",
+      "browserFingerprint":{
+         "value":"0400tyDoXSFjKeoNf94lis1ztln1Bau9lgpsO4xNgG99YO4l+7RP451mSzNBsUAimqgf15362ubh5w+Nn0RPTzA/kNxQl/aUuqWvSdu3DZ2D0kFMgGebJUzGiVAWAdszoNI+/bEhjWVRQLZDdd59r5gHspEIHZVXg4ncShzemood3yoKOVTTL2g136yNzGkmK4M7ISKiq4yvoHcgBVMDdOYV83MnEYUvBMAKTEVdGJlxBwCc8acbcKqAuWf7gouzBPJaEMCy0s3hRLlX3uHnT/mMqzEnDVj65t4JwhaVnZ03AW1FdoQ9xk5uO6Dl1FsZY8jwYa/hFBBVErqVT31SgfbGSSDPgMxl5t1FEfc1JAdyOsaxOVYJVfapKqU85nk8s/N8Fo7uACfUK0aOhWI6NJAY4l+rdsbATajACCYhE210JJtoxqmUnxQDVArloJfuFn+Ry7xtL9D1a5cHYYNdyOmCGb2SVUU7DsShjNXsgMEghG0w/Sp/nxaSrvPoP5g1QwsR96NeuUGi30DT5/CcONrD9RFr2g0WLgSEYTtUNo5lYHzpc0d4qH8MX686v2se+yLqlLB/dcqWkmUmlBgAVSsOV9IpG/94dXdCJuhcu7D0ubp7KMG/GT87q8IWlZ2dNwFtL2yz5RDa2pN03KYhOcRC5SUvcM7ACXSGXOp4yYEIf+IzqbwpmWa8I/ghJUHUtXHM+F9+VNHlcz2VwAGEd3H4L952RAUPKwCzLQAfZaA7jSiwHHrDW3HSYxnPse2ZJCsq4e3f1u/ETzp5VpgkQXTQzZ2bCkUkx/iDDoHRFoxvgwYF+RqRHLoxRm/AuQDBxdkmVIAW7uDQjXPJ5KZOY+8O2Z5lbKwbkY1WLiLEJ4zNTnk1gG7+dJK6MAX8iYyy5jvS7oc5h1YbsShmp4h4IdsMnbuYhkZkoQqHvFQ3SxgXyvTx/y4JwLTE4P4M9O7lUiDQsbDIatg/HKWp7gcGgSPa0u3Iq7Q3U9h2gxrdDw1dWWUGjVQjv/mA5wwyw0csHbIloCIy97cw7YtqYYNTLTFsPJ+A0z8bGC8McSIYe4Oe9y1P55DY9Qpnr0YBKknoROYtibLpophnHJPX4VDE5vx1eTYKc0l3GqSVnbPexAyx9XKwLY4MxzBgJOfH8d/kXMM9COBxCZxjphtLxKF6v2PPxl4QQc9zoBJvG/4+kPO6g2PZuCYrzj4mEQTXvE++wwwVyqInuwErTE1rRjLkmcdik+rKbPSn4mHor8jDTJSNUJcVo8LzO0iQ/nJZnD/w7mtjAK2L8K6RiG6lvp6VhshOKA=="
+      }
+   },
+   "billing":{
+      "street1":"Cumbaya",
+      "country":"EC"
+   },
+   "shipping":{
+      "street1":"Cumbaya",
+      "country":"EC"
+   },
+   "customParameters":{
+      "SHOPPER_EndToEndIdentity":"9cc75b97a427231801e9f3fbb384375a3bb9ce99565d1db16dc779c857346996",
+      "SHOPPER_gracia":"0",
+      "CTPE_DESCRIPTOR_TEMPLATE":"",
+      "1000000505_PD100406":"0081003007010391000401200000000001205100817913101052012000000000000053012000000000100",
+      "SHOPPER_interes":"0"
+   },
+   "risk":{
+      "score":"0",
+      "parameters":{
+         "USER-DATA2":"INFINITY"
+      }
+   },
+   "cart":{
+      "items":[
+         {
+            "name":"Producto1",
+            "description":"Descripcion:Producto1",
+            "quantity":"1",
+            "price":"1"
+         }
+      ]
+   },
+   "buildNumber":"d7c2a53c277f4415ae502cbf6e29b5c49eb022a4@2020-05-05 09:12:26 +0000",
+   "timestamp":"2020-05-06 20:00:14+0000",
+   "ndc":"1B78F9BD9823628CD04541A33156F24A.uat01-vm-tx04",
+   "recurring":{
+      "numberOfInstallments":3
+   }
+}
